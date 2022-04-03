@@ -8,6 +8,11 @@
 
 // 4)  resuelve el ejercicio anterior con forEach
 
+//suma todos los elementos del array con for y con forEach
+//forEach
+
+//for
+
 // PROMISES
 
 //6) crea una promise que me diga que las ballenas vuelan
@@ -27,11 +32,11 @@
 // 11) crea un objeto con 4 elementos y crea 2 variables con elementos del objeto con un destructuring
 
 /* 12) crea un objeto con anidacion y usa destructuring para crear dos variables
- y dos del mismo objeto*/
+y dos del mismo objeto*/
 
 /* 13) Crea un objeto con 10 propiedades diferentes y en un array que se llame
- keys guarda todas sus keys y en otro que se llame values guarda todos sus values
- Ejemplo :
+keys guarda todas sus keys y en otro que se llame values guarda todos sus values
+Ejemplo :
 {
 Saludo:"hola",
 Despedida:'adios'
