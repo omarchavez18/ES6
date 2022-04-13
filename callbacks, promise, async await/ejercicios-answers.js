@@ -9,6 +9,14 @@ numerosNuevos.forEach((albo) => {
 numerosNuevos.forEach((numbers) => {
   console.log(numbers * 8);
 });
+
+//calcular la suma de todos los elementos de una lista
+let sum = 0;
+const numbers2 = [1, 2, 3, 4, 5];
+numbers2.forEach((num) => (sum += num));
+console.log("Ejemplo 2: Cálculo de la suma de los elementos de la lista");
+console.log(sum);
+
 // 2) crear un ciclo que imprima numeros del 37 al 82
 for (let i = 37; i < 83; i++) {
   console.log(i);
@@ -223,3 +231,31 @@ let animes = [
 ];
 const [c, d, e, f, ...mangas] = animes;
 console.log(mangas);
+
+//forEach para imprimir los países en letras mayúsculas
+const countries = ["Finland", "Denmark", "Sweden", "Norway", "Iceland"];
+countries.forEach((pais) => {
+  console.log(pais.toUpperCase());
+});
+
+//Ejemplo 15: Uso de sort para ordenar elementos
+const products = ["Milk", "Coffee", "Sugar", "Honey", "Apple", "Carrot"];
+console.log("Ejemplo 15: Elementos ordernados usando SORT");
+console.log(products.sort());
+/*Uso de some, este método validará todos los elementos de la lista, y si alguno cumple con la validación indicada,
+ regresará true, de lo contrario será false. */
+const perros = ["beagle", "golden retriever", "beagle", "boxer"];
+//usa some para ver si al menos uno de los elementos es "beagle"
+const algunBeagle = perros.some((canino) => {
+  return canino === "beagle";
+});
+console.log(
+  `alguno de los elementos del array perros es "beagle": ${algunBeagle}`
+);
+
+//usar filter para encontrar un pais por las letras
+const paises = ["el salvador", "peru", "bolivia", "venezuela"];
+const paises4 = paises.filter((paisesSudamerica) => {
+  return paisesSudamerica.includes("eru");
+});
+console.log(paises4);

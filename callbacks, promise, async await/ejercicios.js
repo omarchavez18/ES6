@@ -4,6 +4,8 @@
 
 // crea un ciclo que imprima cada elemento del array * 8
 
+// calcular la suma de todos los elementos de una lista
+
 // 2) crear un ciclo que imprima numeros del 37 al 82
 
 // 4)  resuelve el ejercicio anterior con forEach
@@ -53,3 +55,14 @@ en nombre "omar" en apellido "chavez" y en trabajo "programador"  */
 
 /* 15) crea un array con 10 datos, y crea otro array omitiendo los primeros 4 elementos
 con un destructuring */
+
+//imprimir los países en letras mayúsculas
+const countries = ["Finland", "Denmark", "Sweden", "Norway", "Iceland"];
+
+//Ejemplo 15: Uso de sort para ordenar elementos
+
+/*Uso de some, este método validará todos los elementos de la lista, y si alguno cumple con la validación indicada,
+ regresará true, de lo contrario será false. */
+
+//uso de filter para encontrar un pais en base a las letras
+const paises = ["el salvador", "peru", "bolivia", "venezuela"];
