@@ -66,3 +66,5 @@ const countries = ["Finland", "Denmark", "Sweden", "Norway", "Iceland"];
 
 //uso de filter para encontrar un pais en base a las letras
 const paises = ["el salvador", "peru", "bolivia", "venezuela"];
+
+// crea un objeto y de ahi crea una clase , hacerle instaciacion y agregar un metodo
